@@ -1,0 +1,45 @@
+/*
+Name: Lilly Jarvis (Banuelos)
+Date: 03/18/23
+*/
+
+/* This sets the players' images' positions to the absolute pixel spot they are specified to on the screen and resizes them */
+#play2, #play1 {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+
+/* This sets the sign image's position to the absolute pixel spot it is specified to on the screen and resizes it */
+#sign {
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    top: 0px;
+    right: 0px;
+}
+
+/* This moves the instructions id over to the right by 2% */
+#instructions {
+    margin-left: 2%;
+}
+
+/* This resizes the winning player image */
+#playWin {
+    height: 200px;
+    width: 200px;
+}
+
+/* This sets the finish line's image position to the absolute pixel spot it is specified to on the screen and resizes it */
+#finish {
+    position: absolute;
+    height: 750px;
+    width: 15px;
+    top: 0px;
+    left: 900px;
+}
+
+/* This changes the background color */
+body {
+    background-color: rgba(255, 252, 252, 0.485);
+}
